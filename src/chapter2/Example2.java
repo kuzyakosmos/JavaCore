@@ -13,5 +13,7 @@ public class Example2 {
 
         System.out.print("Значение переменной num*2 равно ");
         System.out.println(num);
+
+
     }
 }
