@@ -1,3 +1,5 @@
+package chapter3;
+
 //Резервирование памяти вручную для массива с разной размерностью второго измерения
 class TwoDAgain {
 	public static void main(String[] args) {
@@ -12,13 +14,13 @@ class TwoDAgain {
 		
 		for (i=0; i<4; i++)
 			for (j=0; j<4; j++) {
-				thoD[i][j] = k;
+				twoD[i][j] = k;
 				k++;
 			}
 
 		for (i=0; i<4; i++)
 			for (j=0; j<4; j++) {
-				System.out. print(thoD[i][j] + " ");
+				System.out. print(twoD[i][j] + " ");
 				System.out. println();
 			}
 	}
