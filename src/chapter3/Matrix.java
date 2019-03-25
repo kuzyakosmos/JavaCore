@@ -1,3 +1,5 @@
+package chapter3;
+
 //Инициализировать двухмерный массив
 class Matrix {
 	public static void main(String[] args) {
