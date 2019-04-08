@@ -1,11 +1,13 @@
 package chapter18.book;
 
+import chapter18.Cat;
+
 import java.util.ArrayList;
 
 class ArrayListDemo {
     public static void main(String args[]) {
         // Create an array list.
-        ArrayList<String> al = new ArrayList<String>();
+        ArrayList<String> al = new ArrayList<>();
 
         System.out.println("Initial size of al: " +
                 al.size());
@@ -32,5 +34,14 @@ class ArrayListDemo {
         System.out.println("Size of al after deletions: " +
                 al.size());
         System.out.println("Contents of al: " + al);
+        System.out.println();
+
+        System.out.println(al.getClass());
+        System.out.println(al.get(3));
+        System.out.println(al.indexOf("sdcdwq"));
+//        al.remove(34);
+        Cat asx = new Cat();
+        System.out.println(al.remove(asx));
+        al.remove("wdewf");
     }
 }

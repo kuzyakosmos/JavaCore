@@ -4,13 +4,6 @@ import java.util.Objects;
 
 public class Cat {
 
-    public Cat(String name, String color, float weight, int age) {
-        this.name = name;
-        this.color = color;
-        this.weight = weight;
-        this.age = age;
-    }
-
     String name;
     String color;
     float weight;

@@ -44,8 +44,7 @@ public class HashMapDemo {
 
 
         System.out.println(hashMap);
-
-
-        System.out.println(hashMap.get("Proselyte").getClass());
+        hashMap.put("Proselyte", "weqfeqw");
+        System.out.println(hashMap);
     }
 }

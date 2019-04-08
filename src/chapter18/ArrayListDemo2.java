@@ -31,5 +31,7 @@ public class ArrayListDemo2 {
         System.out.println("Size of al after deletions: " +
                 al.size());
         System.out.println("Contents of al: " + al);
+
+        Double.hashCode(46346346);
     }
 }
